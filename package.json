@@ -1,0 +1,9 @@
+{
+  "name": "market-quote-cli",
+  "version": "0.1.0",
+  "description": "A股公开行情数据助手：实时报价/历史K线/均线计算（东方财富公开接口封装，数据仅供参考不构成投资建议）",
+  "main": "index.js",
+  "bin": { "market-quote": "./index.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}

@@ -1,0 +1,28 @@
+{
+ "runtime": {
+  "type": "node",
+  "version": "18"
+ },
+ "init": {
+  "darwin": "npm install -g git+https://github.com/bluebigman/market-quote-cli.git",
+  "linux": "npm install -g git+https://github.com/bluebigman/market-quote-cli.git",
+  "win32": "npm install -g git+https://github.com/bluebigman/market-quote-cli.git"
+ },
+ "auth": {
+  "darwin": "market-quote auth",
+  "linux": "market-quote auth",
+  "win32": "market-quote.cmd auth"
+ },
+ "unAuth": {
+  "darwin": "market-quote unAuth",
+  "linux": "market-quote unAuth",
+  "win32": "market-quote.cmd unAuth"
+ },
+ "status": {
+  "darwin": "market-quote status",
+  "linux": "market-quote status",
+  "win32": "market-quote.cmd status"
+ },
+ "statusMatch": "ok",
+ "authStrategy": "none"
+}
